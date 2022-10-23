@@ -4,7 +4,6 @@ import ImageGallery from "./ImageGallery/ImageGallery";
 import css from './App.module.css'
 
 const API_KEY = '30779521-b3fbf117fb3141dbf0970e7e2'
-const url = `https://pixabay.com/api/?q=$cat&page=1&key=${API_KEY}&image_type=photo&orientation=horizontal&per_page=12`
 
 
 class App extends Component {
